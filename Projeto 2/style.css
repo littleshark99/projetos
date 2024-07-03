@@ -16,7 +16,8 @@ margin-left: 500px;
 
 .menu{
   text-align: center;
-  background-color: #caccac;  
+  background-color: #c5c5b2;  
+  border: 1px solid;
   height: 50px;
   padding-top: 20px;
   width: 900px;

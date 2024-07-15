@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica , Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+#menu{
+    background-color: orange ;
+    height: 200px;   
+}
+
+#menu h1{
+    display: inline; 
+    font-size: 70px;
+       
+}
+
+#branco{
+    color: white;
+}
+
+#logo{
+    margin-left: 45%;
+    padding-top: 1%;
+}
+
+#lista{
+    text-decoration: none;    
+    list-style: none;
+    display: flex;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-size: 20px; 
+       
+}
+
+#lista a{
+    padding: 1px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.post-center{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    padding: 10px;
+}
+

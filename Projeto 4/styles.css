@@ -63,6 +63,16 @@ a{
 }
 
 #conteudo{
-    background: green;
     width: 920px;
+    margin: 0 auto;
+}
+
+#postagem{
+    width: 660px;
+    float: left;
+}
+
+#lateral{
+    width: 240px;
+    float: right;
 }

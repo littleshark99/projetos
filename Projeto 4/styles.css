@@ -76,3 +76,9 @@ a{
     width: 240px;
     float: right;
 }
+#footer{
+    clear: both;
+    background: #CCC;
+    text-align: center;
+    padding: 15px;
+}

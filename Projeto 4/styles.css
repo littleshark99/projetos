@@ -9,6 +9,7 @@ body{
     background: #e6e6e6;
 }
 
+
 #menu{
     background-color: orange ;
     height: 200px;   
@@ -39,10 +40,19 @@ body{
        
 }
 
+a{
+    text-decoration: none;
+}
+
 #lista a{
     padding: 1px;
     text-decoration: none;
     color: whitesmoke;
+}
+
+#lista a:hover{
+    color: #f7b600;
+    background: #fff;
 }
 
 .post-center{
@@ -52,3 +62,7 @@ body{
     padding: 10px;
 }
 
+#conteudo{
+    background: green;
+    width: 920px;
+}

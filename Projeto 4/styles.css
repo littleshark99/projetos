@@ -42,7 +42,13 @@ body{
 
 a{
     text-decoration: none;
+    color: orange
 }
+
+a:hover{
+    text-decoration: underline;
+}
+
 
 #lista a{
     padding: 1px;
@@ -53,6 +59,7 @@ a{
 #lista a:hover{
     color: #f7b600;
     background: #fff;
+    text-decoration: none;
 }
 
 .post-center{
@@ -71,11 +78,13 @@ a{
 #postagem{
     width: 660px;
     float: left;
+    
 }
 
 #lateral{
     width: 240px;
-    float: right;
+    float: right;    
+    
 }
 #footer{
     clear: both;
@@ -102,4 +111,20 @@ a{
     display: block;
 }
 
+.guia{
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
 
+.guia h3{
+    color: #565656;
+    background: #ccc;
+    padding: 10px;
+}
+
+.conteudo-lateral{
+    font-size: 0.8em;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
